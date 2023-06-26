@@ -1,0 +1,78 @@
+@media(max-width : 900px){
+    header{
+        flex-direction: column;
+    }
+    .header_left{
+        margin-bottom: 25px;
+    }
+    .accroche_content{
+        max-width: 90%;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .offres_content{
+        width: 80%;
+    }
+    .offres_content h2{
+        font-size: 30px;
+    }
+    .all_cards{
+        flex-direction: column;
+    }
+
+    .crew{
+        flex-direction: column-reverse;
+        height: 1100px;
+    }
+    .crew_content{
+        width: 90%;
+        padding: 0;
+        margin: 50px auto;
+    }
+    .crew_content h2{
+        text-align: start;
+    }
+    .crew_content img{
+        height: 300px;
+    }
+
+    .avis{
+        padding: 0;
+    }
+    .avis h2{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .all_avis_card{
+        padding-bottom: 100px;
+        margin-top: 30px ;
+    }
+    .avis_card{
+        height: fit-content;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .commentaire{
+        margin:auto;
+        text-align: center;
+        font-size: 14px;
+    }
+    .card_comment{
+        display: flex;
+    }
+    .employ{
+        margin: 0;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact_content{
+        padding: 20px ;
+    }
+}
